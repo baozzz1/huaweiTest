@@ -125,6 +125,7 @@ public:
 
 	const vector<string> EventSouce = {" ", "RmApp","ResouceScheduler","ApplicationMasterLauncher","RmContainer" };
 	const vector<string> Event = { " ",  "start","app_accepted","container_allocated","launched","finished","kill" };
+	//下标参考用
 	const vector<string> state = { " ",  "submitted","scheduled","allocated","running","finished","killed" };
 };
 
